@@ -1,0 +1,31 @@
+.button {
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.iconClosed,
+.iconOpen {
+  transition: all 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.iconClosed_visible,
+.iconOpen_visible {
+  opacity: 1;
+}
